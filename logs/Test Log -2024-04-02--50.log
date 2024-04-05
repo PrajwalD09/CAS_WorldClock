@@ -1,0 +1,57 @@
+11:41:00.033 [main] INFO  testFiles.worldClockTest - validateNewYorkTimeZone Sucessfully Executed
+11:41:00.070 [main] INFO  testFiles.worldClockTest - ********** validateHotApps Test started **********
+11:41:11.364 [main] INFO  testFiles.worldClockTest - Got beCognizant Handle
+11:41:11.639 [main] INFO  testFiles.worldClockTest - Got Window Handles
+11:41:11.653 [main] INFO  testFiles.worldClockTest - Switched to OneC
+11:41:20.855 [main] INFO  testFiles.worldClockTest - Hot Apps clicked
+11:41:27.902 [main] INFO  testFiles.worldClockTest - Alphabets Validated
+11:41:28.062 [main] INFO  testFiles.worldClockTest - validateHotApps Sucessfully Executed
+11:41:28.074 [main] INFO  testFiles.worldClockTest - ********** validateRandomApp Test started **********
+11:41:29.649 [main] INFO  testFiles.worldClockTest - Alphabet clicked
+11:41:46.037 [main] INFO  testFiles.worldClockTest - validateRandomApp Sucessfully Executed
+11:41:47.790 [main] INFO  testFiles.worldClockTest - Closing the browser
+11:46:18.785 [main] INFO  testFiles.worldClockTest - --------------------------- TEST BEGINS ---------------------------------
+11:46:18.849 [main] INFO  testFiles.worldClockTest - ********** verifyUser Test started **********
+11:46:32.782 [main] INFO  testFiles.worldClockTest - Capturing the User Details
+11:46:32.782 [main] INFO  testFiles.worldClockTest - Successfully captured the User Details
+11:46:32.820 [main] INFO  testFiles.worldClockTest - verifyUser Sucessfully Executed
+11:46:32.832 [main] INFO  testFiles.worldClockTest - ********** verifyWorldClockText Test started **********
+11:46:32.885 [main] INFO  testFiles.worldClockTest - Scrolled down to the World Clock
+11:46:36.111 [main] INFO  testFiles.worldClockTest - verifyWorldClockText Sucessfully Executed
+11:46:36.117 [main] INFO  testFiles.worldClockTest - ********** validateBangloreTimeZone Test started **********
+11:46:39.857 [main] INFO  testFiles.worldClockTest - Verifying the current location details with the system details
+11:46:39.857 [main] INFO  testFiles.worldClockTest - Verified the current location
+11:46:39.899 [main] INFO  testFiles.worldClockTest - Verified the current time
+11:46:39.905 [main] INFO  testFiles.worldClockTest - Verified the current day
+11:46:39.906 [main] INFO  testFiles.worldClockTest - Verified the current date
+11:46:39.907 [main] INFO  testFiles.worldClockTest - validateBangloreTimeZone Sucessfully Executed
+11:46:39.914 [main] INFO  testFiles.worldClockTest - ********** validateLondonTimeZone Test started **********
+11:46:40.398 [main] INFO  testFiles.worldClockTest - Verifying the London, UK (BST) details
+11:46:40.495 [main] INFO  testFiles.worldClockTest - Google tab opened
+11:46:42.498 [main] INFO  testFiles.worldClockTest - search data entered
+11:46:45.724 [main] INFO  testFiles.worldClockTest - Verified the time
+11:46:45.764 [main] INFO  testFiles.worldClockTest - Verified the day and date
+11:46:45.766 [main] INFO  testFiles.worldClockTest - Verified the time difference
+11:46:45.810 [main] INFO  testFiles.worldClockTest - validateLondonTimeZone Sucessfully Executed
+11:46:45.816 [main] INFO  testFiles.worldClockTest - ********** validateNewYorkTimeZone Test started **********
+11:46:46.253 [main] INFO  testFiles.worldClockTest - Verifying the New York, NY (EST) details
+11:46:46.673 [main] INFO  testFiles.worldClockTest - search data entered in the google
+11:46:51.240 [main] INFO  testFiles.worldClockTest - Verified the time
+11:46:51.289 [main] INFO  testFiles.worldClockTest - Verified the day and date
+11:46:51.290 [main] INFO  testFiles.worldClockTest - Verified the time difference
+11:46:51.358 [main] INFO  testFiles.worldClockTest - closed the google tab
+11:46:51.369 [main] INFO  testFiles.worldClockTest - validateNewYorkTimeZone Sucessfully Executed
+11:46:51.376 [main] INFO  testFiles.worldClockTest - ********** validateHotApps Test started **********
+11:47:02.651 [main] INFO  testFiles.worldClockTest - Got beCognizant Handle
+11:47:02.667 [main] INFO  testFiles.worldClockTest - Got Window Handles
+11:47:02.676 [main] INFO  testFiles.worldClockTest - Switched to OneC
+11:47:11.876 [main] INFO  testFiles.worldClockTest - Hot Apps clicked
+11:47:18.924 [main] INFO  testFiles.worldClockTest - Alphabets Validated
+11:47:19.104 [main] INFO  testFiles.worldClockTest - validateHotApps Sucessfully Executed
+11:47:19.108 [main] INFO  testFiles.worldClockTest - ********** validateRandomApp Test started **********
+11:47:20.287 [main] INFO  testFiles.worldClockTest - Alphabet clicked
+11:47:37.238 [main] INFO  testFiles.worldClockTest - validateRandomApp Sucessfully Executed
+11:47:38.715 [main] INFO  testFiles.worldClockTest - Closing the browser
+11:50:20.194 [main] INFO  testFiles.worldClockTest - --------------------------- TEST BEGINS ---------------------------------
+11:50:20.248 [main] INFO  testFiles.worldClockTest - ********** verifyUser Test started **********
+11:50:33.974 [main] INFO  testFiles.worldClockTest - Capturing the User Details

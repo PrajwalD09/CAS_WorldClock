@@ -1,0 +1,56 @@
+09:33:45.034 [main] INFO  testFiles.worldClockTest - verifyWorldClockText Sucessfully Executed
+09:33:45.045 [main] INFO  testFiles.worldClockTest - ********** validateBangloreTimeZone Test started **********
+09:33:48.295 [main] INFO  testFiles.worldClockTest - Verifying the current location details with the system details
+09:33:48.295 [main] INFO  testFiles.worldClockTest - Verified the current location
+09:33:48.312 [main] INFO  testFiles.worldClockTest - Verified the current time
+09:33:48.313 [main] INFO  testFiles.worldClockTest - Verified the current day
+09:33:48.313 [main] INFO  testFiles.worldClockTest - Verified the current date
+09:33:48.315 [main] INFO  testFiles.worldClockTest - validateBangloreTimeZone Sucessfully Executed
+09:33:48.316 [main] INFO  testFiles.worldClockTest - ********** validateLondonTimeZone Test started **********
+09:33:48.507 [main] INFO  testFiles.worldClockTest - Verifying the London, UK (BST) details
+09:33:48.559 [main] INFO  testFiles.worldClockTest - Google tab opened
+09:33:51.894 [main] INFO  testFiles.worldClockTest - search data entered
+09:33:55.029 [main] INFO  testFiles.worldClockTest - Verified the time
+09:33:55.046 [main] INFO  testFiles.worldClockTest - Verified the day and date
+09:33:55.046 [main] INFO  testFiles.worldClockTest - Verified the time difference
+09:33:55.058 [main] INFO  testFiles.worldClockTest - validateLondonTimeZone Sucessfully Executed
+09:33:55.061 [main] INFO  testFiles.worldClockTest - ********** validateNewYorkTimeZone Test started **********
+09:33:55.240 [main] INFO  testFiles.worldClockTest - Verifying the New York, NY (EST) details
+09:33:55.422 [main] INFO  testFiles.worldClockTest - search data entered in the google
+09:33:59.447 [main] INFO  testFiles.worldClockTest - Verified the time
+09:33:59.460 [main] INFO  testFiles.worldClockTest - Verified the day and date
+09:33:59.460 [main] INFO  testFiles.worldClockTest - Verified the time difference
+09:33:59.525 [main] INFO  testFiles.worldClockTest - closed the google tab
+09:33:59.528 [main] INFO  testFiles.worldClockTest - validateNewYorkTimeZone Sucessfully Executed
+09:33:59.530 [main] INFO  testFiles.worldClockTest - ********** validateHotApps Test started **********
+09:34:10.658 [main] INFO  testFiles.worldClockTest - Got beCognizant Handle
+09:34:10.669 [main] INFO  testFiles.worldClockTest - Got Window Handles
+09:34:10.672 [main] INFO  testFiles.worldClockTest - Switched to OneC
+09:34:20.951 [main] ERROR testFiles.worldClockTest - validateHotApps got failed
+09:34:20.952 [main] INFO  testFiles.worldClockTest - ********** validateRandomApp Test started **********
+09:34:20.954 [main] INFO  testFiles.worldClockTest - validateRandomApp got skipped !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+09:34:22.067 [main] INFO  testFiles.worldClockTest - Closing the browser
+09:35:34.407 [main] INFO  testFiles.worldClockTest - --------------------------- TEST BEGINS ---------------------------------
+09:35:34.424 [main] INFO  testFiles.worldClockTest - ********** verifyUser Test started **********
+09:35:45.985 [main] INFO  testFiles.worldClockTest - Capturing the User Details
+09:35:45.985 [main] INFO  testFiles.worldClockTest - Successfully captured the User Details
+09:35:45.999 [main] INFO  testFiles.worldClockTest - verifyUser Sucessfully Executed
+09:35:46.001 [main] INFO  testFiles.worldClockTest - ********** verifyWorldClockText Test started **********
+09:35:46.018 [main] INFO  testFiles.worldClockTest - Scrolled down to the World Clock
+09:35:49.159 [main] INFO  testFiles.worldClockTest - verifyWorldClockText Sucessfully Executed
+09:35:49.161 [main] INFO  testFiles.worldClockTest - ********** validateBangloreTimeZone Test started **********
+09:35:52.392 [main] INFO  testFiles.worldClockTest - Verifying the current location details with the system details
+09:35:52.393 [main] INFO  testFiles.worldClockTest - Verified the current location
+09:35:52.408 [main] INFO  testFiles.worldClockTest - Verified the current time
+09:35:52.411 [main] INFO  testFiles.worldClockTest - Verified the current day
+09:35:52.412 [main] INFO  testFiles.worldClockTest - Verified the current date
+09:35:52.413 [main] INFO  testFiles.worldClockTest - validateBangloreTimeZone Sucessfully Executed
+09:35:52.414 [main] INFO  testFiles.worldClockTest - ********** validateLondonTimeZone Test started **********
+09:35:52.631 [main] INFO  testFiles.worldClockTest - Verifying the London, UK (BST) details
+09:35:52.687 [main] INFO  testFiles.worldClockTest - Google tab opened
+09:35:55.561 [main] INFO  testFiles.worldClockTest - search data entered
+09:35:58.723 [main] INFO  testFiles.worldClockTest - Verified the time
+09:35:58.740 [main] INFO  testFiles.worldClockTest - Verified the day and date
+09:35:58.741 [main] INFO  testFiles.worldClockTest - Verified the time difference
+09:35:58.758 [main] INFO  testFiles.worldClockTest - validateLondonTimeZone Sucessfully Executed
+09:35:58.761 [main] INFO  testFiles.worldClockTest - ********** validateNewYorkTimeZone Test started **********

@@ -1,0 +1,52 @@
+10:56:18.572 [main] INFO  testFiles.worldClockTest - Verified the time
+10:56:18.594 [main] INFO  testFiles.worldClockTest - Verified the day and date
+10:56:18.594 [main] INFO  testFiles.worldClockTest - Verified the time difference
+10:56:18.608 [main] INFO  testFiles.worldClockTest - validateLondonTimeZone Sucessfully Executed
+10:56:18.609 [main] INFO  testFiles.worldClockTest - ********** validateNewYorkTimeZone Test started **********
+10:56:18.826 [main] INFO  testFiles.worldClockTest - Verifying the New York, NY (EST) details
+10:56:19.085 [main] INFO  testFiles.worldClockTest - search data entered in the google
+10:56:23.288 [main] INFO  testFiles.worldClockTest - Verified the time
+10:56:23.300 [main] INFO  testFiles.worldClockTest - Verified the day and date
+10:56:23.301 [main] INFO  testFiles.worldClockTest - Verified the time difference
+10:56:23.369 [main] INFO  testFiles.worldClockTest - closed the google tab
+10:56:23.373 [main] INFO  testFiles.worldClockTest - validateNewYorkTimeZone Sucessfully Executed
+10:56:23.373 [main] INFO  testFiles.worldClockTest - ********** validateHotApps Test started **********
+10:56:34.528 [main] INFO  testFiles.worldClockTest - Got beCognizant Handle
+10:56:34.559 [main] INFO  testFiles.worldClockTest - Got Window Handles
+10:56:34.563 [main] INFO  testFiles.worldClockTest - Switched to OneC
+10:56:43.660 [main] INFO  testFiles.worldClockTest - Hot Apps clicked
+10:56:50.691 [main] INFO  testFiles.worldClockTest - Alphabets Validated
+10:56:50.804 [main] INFO  testFiles.worldClockTest - validateHotApps Sucessfully Executed
+10:56:50.804 [main] INFO  testFiles.worldClockTest - ********** validateRandomApp Test started **********
+10:56:51.280 [main] INFO  testFiles.worldClockTest - Alphabet clicked
+10:57:05.754 [main] INFO  testFiles.worldClockTest - validateRandomApp Sucessfully Executed
+10:57:06.877 [main] INFO  testFiles.worldClockTest - Closing the browser
+11:10:49.442 [TestNG-tests-2] INFO  testFiles.worldClockTest - --------------------------- TEST BEGINS ---------------------------------
+11:10:49.512 [TestNG-tests-1] INFO  testFiles.worldClockTest - --------------------------- TEST BEGINS ---------------------------------
+11:10:49.549 [TestNG-tests-1] INFO  testFiles.worldClockTest - ********** verifyUser Test started **********
+11:10:49.549 [TestNG-tests-2] INFO  testFiles.worldClockTest - ********** verifyUser Test started **********
+11:11:04.837 [TestNG-tests-1] INFO  testFiles.worldClockTest - Capturing the User Details
+11:11:04.837 [TestNG-tests-1] INFO  testFiles.worldClockTest - Successfully captured the User Details
+11:11:04.897 [TestNG-tests-1] INFO  testFiles.worldClockTest - verifyUser Sucessfully Executed
+11:11:04.904 [TestNG-tests-1] INFO  testFiles.worldClockTest - ********** verifyWorldClockText Test started **********
+11:11:04.991 [TestNG-tests-2] INFO  testFiles.worldClockTest - Capturing the User Details
+11:11:04.991 [TestNG-tests-2] INFO  testFiles.worldClockTest - Successfully captured the User Details
+11:11:04.995 [TestNG-tests-2] INFO  testFiles.worldClockTest - verifyUser Sucessfully Executed
+11:11:04.998 [TestNG-tests-2] INFO  testFiles.worldClockTest - ********** verifyWorldClockText Test started **********
+11:11:05.072 [TestNG-tests-1] INFO  testFiles.worldClockTest - Scrolled down to the World Clock
+11:11:05.114 [TestNG-tests-2] INFO  testFiles.worldClockTest - Scrolled down to the World Clock
+11:11:08.544 [TestNG-tests-1] INFO  testFiles.worldClockTest - verifyWorldClockText Sucessfully Executed
+11:11:08.549 [TestNG-tests-1] INFO  testFiles.worldClockTest - ********** validateBangloreTimeZone Test started **********
+11:11:08.561 [TestNG-tests-2] INFO  testFiles.worldClockTest - verifyWorldClockText Sucessfully Executed
+11:11:08.563 [TestNG-tests-2] INFO  testFiles.worldClockTest - ********** validateBangloreTimeZone Test started **********
+11:11:12.608 [TestNG-tests-2] INFO  testFiles.worldClockTest - Verifying the current location details with the system details
+11:11:12.609 [TestNG-tests-2] INFO  testFiles.worldClockTest - Verified the current location
+11:11:12.625 [TestNG-tests-1] INFO  testFiles.worldClockTest - Verifying the current location details with the system details
+11:11:12.626 [TestNG-tests-1] INFO  testFiles.worldClockTest - Verified the current location
+11:11:12.694 [TestNG-tests-1] INFO  testFiles.worldClockTest - Verified the current time
+11:11:12.694 [TestNG-tests-2] INFO  testFiles.worldClockTest - Verified the current time
+11:11:12.702 [TestNG-tests-1] INFO  testFiles.worldClockTest - Verified the current day
+11:11:12.701 [TestNG-tests-2] INFO  testFiles.worldClockTest - Verified the current day
+11:11:12.702 [TestNG-tests-1] INFO  testFiles.worldClockTest - Verified the current date
+11:11:12.702 [TestNG-tests-2] INFO  testFiles.worldClockTest - Verified the current date
+11:11:12.705 [TestNG-tests-1] INFO  testFiles.worldClockTest - validateBangloreTimeZone Sucessfully Executed
