@@ -13,7 +13,7 @@
           <include name="tearDown"/>
           <include name="validateHotApps"/>
           <include name="setup"/>
-          <include name="validateRandomApp" invocation-numbers="0"/>
+          <include name="validateRandomApp"/>
         </methods>
       </class> <!-- testFiles.worldClockTest -->
     </classes>

@@ -9,15 +9,41 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">104,257</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">5</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">85,970</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">testFiles.worldClockTest</td><td><a href="#m0">validateBangloreTimeZone</a></td><td rowspan="1">1712039898089</td><td rowspan="1">3806</td></tr><tr class="passedeven"><td><a href="#m1">validateHotApps</a></td><td rowspan="1">1712039915360</td><td rowspan="1">27749</td></tr><tr class="passedeven"><td><a href="#m2">validateLondonTimeZone</a></td><td rowspan="1">1712039902188</td><td rowspan="1">6472</td></tr><tr class="passedeven"><td><a href="#m3">validateNewYorkTimeZone</a></td><td rowspan="1">1712039908999</td><td rowspan="1">6111</td></tr><tr class="passedeven"><td><a href="#m4">validateRandomApp</a></td><td rowspan="1">1712039943295</td><td rowspan="1">25612</td></tr><tr class="passedeven"><td><a href="#m5">verifyUser</a></td><td rowspan="1">1712039879749</td><td rowspan="1">14084</td></tr><tr class="passedeven"><td><a href="#m6">verifyWorldClockText</a></td><td rowspan="1">1712039894539</td><td rowspan="1">3357</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testFiles.worldClockTest</td><td><a href="#m0">validateHotApps</a></td><td rowspan="1">1712340142182</td><td rowspan="1">22580</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testFiles.worldClockTest</td><td><a href="#m1">validateRandomApp</a></td><td rowspan="1">1712340165235</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">testFiles.worldClockTest</td><td><a href="#m2">validateBangloreTimeZone</a></td><td rowspan="1">1712340118422</td><td rowspan="1">3772</td></tr><tr class="passedeven"><td><a href="#m3">validateLondonTimeZone</a></td><td rowspan="1">1712340122477</td><td rowspan="1">13750</td></tr><tr class="passedeven"><td><a href="#m4">validateNewYorkTimeZone</a></td><td rowspan="1">1712340136455</td><td rowspan="1">5505</td></tr><tr class="passedeven"><td><a href="#m5">verifyUser</a></td><td rowspan="1">1712340101021</td><td rowspan="1">13281</td></tr><tr class="passedeven"><td><a href="#m6">verifyWorldClockText</a></td><td rowspan="1">1712340114901</td><td rowspan="1">3293</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">testFiles.worldClockTest#validateBangloreTimeZone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testFiles.worldClockTest#validateHotApps</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testFiles.worldClockTest#validateLondonTimeZone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testFiles.worldClockTest#validateNewYorkTimeZone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testFiles.worldClockTest#validateRandomApp</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">testFiles.worldClockTest#validateHotApps</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div role=&quot;link&quot; tabindex=&quot;0&quot; class=&quot;viewAllHotAppsBtn&quot; onclick=&quot;LoadAppStore()&quot;&gt;...&lt;/div&gt; is not clickable at point (1282, 336). Other element would receive the click: &lt;div id=&quot;overLay&quot; style=&quot;opacity: 0.7; display: block; position: fixed; width: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); border: 1px solid rgb(206, 206, 206); z-index: 11111; height: 695px;&quot; onclick=&quot;disablePopup();&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=120.0.6099.130)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d94975b79b1eb0a66225c259c8efed16, clickElement {id=F6E805C760C11CEB921B5B11E3085E10_element_126}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56328}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56328/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d94975b79b1eb0a66225c259c8efed16)] -&gt; xpath: //div[@class = &apos;viewAllHotAppsBtn&apos;]]
+Session ID: d94975b79b1eb0a66225c259c8efed16
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy49.click(Unknown Source)
+	at POMfiles.OneCognizantPOM.clickHotApps(OneCognizantPOM.java:41)
+	at testFiles.worldClockTest.validateHotApps(worldClockTest.java:233)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testFiles.worldClockTest#validateRandomApp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method testFiles.worldClockTest.validateRandomApp() on instance testFiles.worldClockTest@4d1bf319 depends on not successfully finished methods 
+[testFiles.worldClockTest.validateHotApps() on instance testFiles.worldClockTest@4d1bf319]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testFiles.worldClockTest#validateBangloreTimeZone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testFiles.worldClockTest#validateLondonTimeZone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testFiles.worldClockTest#validateNewYorkTimeZone</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m5">testFiles.worldClockTest#verifyUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m6">testFiles.worldClockTest#verifyWorldClockText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
