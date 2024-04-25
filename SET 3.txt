@@ -1,0 +1,484 @@
+******************************************************************************SET 3*****************************************************************************************************
+
+Java :
+
+1) Dexler placement training
+
+
+Dexler
+
+
+we get this question from google , don't think 
+
+this answer is final for Laptop nest
+
+***you guys just refer  before exam****
+
+***not confirm*****
+
+
+
+// Define a class for Dexter Placement Training
+class DexterPlacementTraining {
+    private String courseName;
+    private int durationInMonths;
+    private double courseFee;
+    
+    // Constructor to initialize the attributes
+    public DexterPlacementTraining(String courseName, int durationInMonths, double courseFee) {
+        this.courseName = courseName;
+        this.durationInMonths = durationInMonths;
+        this.courseFee = courseFee;
+    }
+    
+    // Method to display course details
+    public void displayCourseDetails() {
+        System.out.println("Course Name: " + courseName);
+        System.out.println("Duration: " + durationInMonths + " months");
+        System.out.println("Course Fee: $" + courseFee);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Prompt user to enter course details
+        System.out.println("Enter course name:");
+        String courseName = scanner.nextLine();
+        
+        System.out.println("Enter duration in months:");
+        int duration = scanner.nextInt();
+        
+        System.out.println("Enter course fee:");
+        double fee = scanner.nextDouble();
+        
+        // Create an object of DexterPlacementTraining class
+        DexterPlacementTraining course = new DexterPlacementTraining(courseName, duration, fee);
+        
+        // Display course details
+        System.out.println("\nCourse Details:");
+        course.displayCourseDetails();
+        
+        // Close the scanner
+        scanner.close();
+    }
+}
+__________________________________________________________________________
+2) Laptop nest
+Laptop nest- 
+
+we get this question from google , don't think
+
+    (or
+
+this answer is final for Laptop nest
+
+***you guys just refer  before exam****
+***not confirm*****
+
+import java.util.*;
+
+public class LaptopNest {
+
+    private List<Laptop> laptops;
+
+    public LaptopNest() {
+        laptops = new ArrayList<>();
+    }
+
+    public void addLaptop(Laptop laptop) {
+        laptops.add(laptop);
+    }
+
+    public void removeLaptop(Laptop laptop) {
+        laptops.remove(laptop);
+    }
+
+    public List<Laptop> getLaptops() {
+        return laptops;
+    }
+
+    public static void main(String[] args) {
+        LaptopNest nest = new LaptopNest();
+
+        // Add some laptops to the nest.
+        nest.addLaptop(new Laptop("Dell XPS 13"));
+        nest.addLaptop(new Laptop("Apple MacBook Air"));
+        nest.addLaptop(new Laptop("Microsoft Surface Laptop"));
+
+        // Print the laptops in the nest.
+        for (Laptop laptop : nest.getLaptops()) {
+            System.out.println(laptop);
+        }
+    }
+}
+
+class Laptop {
+
+    private String name;
+
+    public Laptop(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public String toString() {
+        return "Laptop{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+}
+__________________________________________________________________________
+3) Removing keys from hashmap
+------------------------------MAIN.JAVA------------------------------
+
+import java.util.Scanner;
+import java.util.HashMap;
+
+public class Main{
+
+	public static void main(String args[])
+	{
+
+		Scanner sc=new Scanner(System.in);
+
+		int size = sc.nextInt();
+
+		HashMap<Integer,String> hm = new HashMap<Integer,String>();
+
+		for(int i=0 ; i<size ; i++)
+		{
+			int key = sc.nextInt();
+			sc.nextLine();
+			String value = sc.nextLine();
+
+			hm.put(key,value);
+		}
+
+		System.out.println(UserMainCode.sizeOfResultandHashMap(hm));
+	}
+}
+----------------------------------USERMAIN CODE--------------------------------
+
+import java.util.HashMap;
+
+public class UserMainCode {
+    
+    public static int sizeOfResultandHashMap(HashMap<Integer,String> hm) {
+        
+        //fill the code
+        hm.entrySet().removeIf(entry -> entry.getKey() %4 == 0);
+        return hm.size();
+    
+    }
+    
+}
+							(Or)
+public class UserMainCode{
+		public static int sizeOfResultandHashMap(HashMap<Integer,String> hm){
+    		int count = 0;
+    		Iterator<Integer> itr = hm.keySet().iterator();
+        while(itr.hasNext()){
+        	int n = itr.next();
+        	if(n%4!=0){
+          	count++;
+          }
+        }
+        return count;
+      
+    }
+}
+
+
+
+
+_______________________________________________________________________________
+SQL
+4) Policy end date
+SELECT pl.customer_id,p. policy_name, DATE_ADD(pL.dateof_enrollment, INTERVAL pl.no_of_years YEAR)
+AS policy_end_date FROM policy p
+JOIN POLICYENROLLMENT pl
+ON p.policy_id= pl.policy_id
+ORDER BY pl.customer_id asc;
+    (or)
+--Policy End Date
+
+select customer_id,policy_name,date_add(date_of_enrollment,interval no_of_years year) as policy_end_date
+from customer natural join policyenrollment natural join policy 
+order by customer_id;
+
+_________________________________________________________________________________
+5) Customer details based on activation date -found
+select c.customer_id, b.bank_name , b.branch_name , b.ifsc_code , a.registration_date , a.activation_date
+from customer_reference_info c
+inner join account_info a on
+c.customer_id = a.customer_id
+inner join bank_info b on
+a.ifsc_code = b.ifsc_code
+where month(a.activation_date)=3
+order by c.customer_id asc;
+      
+     (or)
+select cpi.customer_id,cpi.customer_name,a.account_no,a.account_type,a.activation_date,b.bank_name
+from customer_personal_info cpi
+join account_info a on cpi.customer_id=a.customer_id
+join bank_info b on a.ifsc_code=b.ifsc_code
+where a.activation_date='2022-04-10' 
+order by cpi.customer_id;
+ 
+ 
+(or) 
+ SELECT
+    a.account_number,
+    a.account_type,
+    c.customer_id,
+    c.customer_name,
+    c.date_of_birth,
+    c.guardian_name,
+    c.contact_no,
+    c.mail_id,
+    c.gender,
+    c.reference_account_holders_name,
+    c.reference_account_holders_account_number,
+    c.registration_date,
+    c.activation_date,
+    DATEDIFF(c.activation_date, c.registration_date) AS NoofdaysforActivation,
+    b.bank_name,
+    b.branch_name,
+    a.initial_deposit
+FROM
+    account_table a
+JOIN
+    customer_table c ON a.customer_id = c.customer_id
+JOIN
+    bank_table b ON a.bank_id = b.bank_id
+ORDER BY
+    a.account_number ASC;
+
+-------------------------------
+
+-------------------------------
+working code for laptop --------------- narsimhan 
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Scanner;
+
+public class LaptopInfo {
+
+    private Map<String, Double> laptopMap = new HashMap<>();
+
+    public Map<String, Double> getLaptopMap() {
+        return laptopMap;
+    }
+
+    public void setLaptopMap(Map<String, Double> laptopMap) {
+        this.laptopMap = laptopMap;
+    }
+
+    public int findTotalCountOfLaptopsBasedOnPriceRange(double minimumPrice, double maximumPrice) {
+        //Fill the code
+        
+        int count = 0;
+        for (Map.Entry<String, Double> entry : laptopMap.entrySet()) {
+            double price = entry.getValue();
+            if (price >= minimumPrice && price <= maximumPrice) {
+                count++;
+            }
+        }
+        if(count >0){
+            return count;
+        }
+        return -1;
+    }
+
+    public List<String> findLaptopsInPriceRange(double minimumPrice,double maximumPrice) {
+        //Fill the code
+        List<String> laptopBrandsList = new ArrayList<>();
+        
+        for (Map.Entry<String, Double> entry : laptopMap.entrySet()) {
+            double price = entry.getValue();
+            if (price >= minimumPrice && price <= maximumPrice) {
+                laptopBrandsList.add(entry.getKey());
+            }
+        }
+        return laptopBrandsList;
+
+    }
+
+    public static void main(String[] args) {
+        LaptopInfo laptopInfo = new LaptopInfo();
+        List<String> laptopBrandsList = new ArrayList<>();
+        Map<String, Double> laptopMap = new HashMap<>();
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the number of laptop records to be added:");
+        int n = sc.nextInt();
+        sc.nextLine();
+        System.out.println("Enter the laptop records (Brand: Price):");
+        for (int i = 0; i < n; i++) {
+            String str = sc.nextLine();
+            String[] laptopDetails = str.split(":");
+           
+                double price = Double.parseDouble(laptopDetails[1]);
+                laptopMap.put(laptopDetails[0], price);
+        }
+
+        laptopInfo.setLaptopMap(laptopMap);
+
+        System.out.println("Enter the minimum and maximum price for laptop search:");
+        double minPrice = sc.nextDouble();
+        double maxPrice = sc.nextDouble();
+
+        int laptopCount = laptopInfo.findTotalCountOfLaptopsBasedOnPriceRange(minPrice,maxPrice);
+        if (laptopCount > 0) {
+            System.out.println("The number of laptops within the price range " + minPrice + " - " + maxPrice + " is: " + laptopCount);
+            laptopBrandsList = laptopInfo.findLaptopsInPriceRange(minPrice, maxPrice);
+            System.out.println("Laptop brands within the price range:");
+            for (String brand : laptopBrandsList) {
+                System.out.println(brand);
+            }
+        } else {
+            System.out.println("No laptops were found within the specified price range");
+        }
+    }
+}
+
+
+-------------------DEXTER BY NARIS
+
+
+import java.util.*;
+
+public class Student {
+	private String studentId;
+	private String studentName;
+	private String courseName;
+	private double markScored;
+	private double courseFee;
+	private double examFee;
+	public Student() {
+		super();
+	}
+	public Student(String studentId, String studentName, String courseName, double markScored, double courseFee,
+			double examFee) {
+		super();
+		this.studentId = studentId;
+		this.studentName = studentName;
+		this.courseName = courseName;
+		this.markScored = markScored;
+		this.courseFee = courseFee;
+		this.examFee = examFee;
+	}
+	public String getStudentId() {
+		return studentId;
+	}
+	public void setStudentId(String studentId) {
+		this.studentId = studentId;
+	}
+	public String getStudentName() {
+		return studentName;
+	}
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+	public String getCourseName() {
+		return courseName;
+	}
+	public void setCourseName(String courseName) {
+		this.courseName = courseName;
+	}
+	public double getMarkScored() {
+		return markScored;
+	}
+	public void setMarkScored(double markScored) {
+		this.markScored = markScored;
+	}
+	public double getCourseFee() {
+		return courseFee;
+	}
+	public void setCourseFee(double courseFee) {
+		this.courseFee = courseFee;
+	}
+	public double getExamFee() {
+		return examFee;
+	}
+	public void setExamFee(double examFee) {
+		this.examFee = examFee;
+	}
+	
+	public double calculateTotalFee()
+	{
+		// fill the code here
+		if (courseFee <= 0) {
+            return 0;
+        }
+
+        if (markScored >= 80) {
+            courseFee -= (courseFee * 30) / 100;
+        }
+
+        return courseFee + examFee;
+	
+	}
+}
+
+------USER INTERFACE-----
+
+import java.util.Scanner;
+public class UserInterface {
+
+	public static Student extractDetails(String studentDetails)
+	{
+	    // fill the code here
+		String[] details = studentDetails.split(":");
+        if (details.length != 6) {
+            System.out.println("Invalid Student details");
+            return null;
+        }
+
+        String studentId = details[0];
+        String studentName = details[1];
+        String courseName = details[2];
+        double markScored = Double.parseDouble(details[3]);
+        double courseFee = Double.parseDouble(details[4]);
+        double examFee = Double.parseDouble(details[5]);
+
+        return new Student(studentId, studentName, courseName, markScored, courseFee, examFee);
+    }
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the student details:");
+        String studentDetails = scanner.nextLine();
+
+        Student student = extractDetails(studentDetails);
+        if (student != null) {
+            System.out.println("Student details");
+            System.out.println("Student id: " + student.getStudentId());
+            System.out.println("Student name: " + student.getStudentName());
+            System.out.println("Course name: " + student.getCourseName());
+            System.out.println("Mark scored: " + student.getMarkScored());
+            System.out.println("Course fee: " + student.getCourseFee());
+            System.out.println("Exam fee: " + student.getExamFee());
+            System.out.println("Total fee to be paid is: " + student.calculateTotalFee());
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
